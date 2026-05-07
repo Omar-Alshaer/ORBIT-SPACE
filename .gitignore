@@ -1,0 +1,38 @@
+# ORBIT workspace
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/dist/
+frontend/*.tsbuildinfo
+
+# Backend dependencies and builds
+backend/node_modules/
+backend/dist/
+backend/build/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+*-firebase-adminsdk-*.json
+frontend/.env
+frontend/.env.local
+frontend/.env.*.local
+backend/.env
+backend/.env.local
+backend/.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/
